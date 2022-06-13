@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".Body_information">
+
+    <TextView
+        android:id="@+id/body_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="body-frame:"
+        android:textColor="#110037"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/body_frame_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body_frame"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/small"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="small"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/medium"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="medium"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:checked="true"
+            tools:ignore="HardcodedText" />
+
+        <RadioButton
+            android:id="@+id/large"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="large"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/actual_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body_frame_group"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="actual weight:"
+        android:textColor="#110037"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/actual_weight_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actual_weight"
+        android:layout_centerHorizontal="true"
+        android:hint="Weight"
+        android:textSize="25sp"
+        android:autofillHints="actual weight"
+        android:inputType="number"
+        tools:ignore="HardcodedText,TextFields" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/actual_weight_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Height:"
+        android:textColor="#110037"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.slider.RangeSlider
+        android:id="@+id/heightSlider"
+        android:layout_below="@id/height"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:stepSize="1"
+        android:value="140"
+        android:valueFrom="140"
+        android:valueTo="200"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heightSlider"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="Submit"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+
+
+</RelativeLayout>

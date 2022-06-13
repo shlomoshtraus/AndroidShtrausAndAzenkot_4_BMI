@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".Body_information">
+
+  <TextView
+      android:id="@+id/bmi_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="30dp"
+      android:text="Your BMI is:"
+      android:textColor="#110037"
+      android:textSize="30sp"
+      android:textStyle="bold"
+      tools:ignore="HardcodedText" />
+
+  <TextView
+      android:id="@+id/bmi_result"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/bmi_title"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="15dp"
+      android:text=""
+      android:textColor="#110037"
+      android:textSize="30sp"
+      android:textStyle="bold"
+      tools:ignore="HardcodedText" />
+
+  <TextView
+      android:id="@+id/status_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@id/bmi_result"
+      android:layout_marginTop="25dp"
+      android:text="Status:"
+      android:textColor="#110037"
+      android:textSize="30sp"
+      android:textStyle="bold"
+      tools:ignore="HardcodedText" />
+
+  <TextView
+      android:id="@+id/status_result"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/status_title"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="15dp"
+      android:text=""
+      android:textColor="#110037"
+      android:textSize="30sp"
+      android:textStyle="bold"
+      tools:ignore="HardcodedText" />
+
+  <TextView
+      android:id="@+id/ideal_weight_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_below="@id/status_result"
+      android:layout_marginTop="25dp"
+      android:text="Ideal weight:"
+      android:textColor="#110037"
+      android:textSize="30sp"
+      android:textStyle="bold"
+      tools:ignore="HardcodedText" />
+
+  <TextView
+      android:id="@+id/ideal_weight_result"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/ideal_weight_title"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="15dp"
+      android:text=""
+      android:textColor="#110037"
+      android:textSize="30sp"
+      android:textStyle="bold"
+      tools:ignore="HardcodedText" />
+
+  <Button
+      android:id="@+id/main_page"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/ideal_weight_result"
+      android:layout_marginStart="20dp"
+      android:layout_marginTop="60dp"
+      android:text="Main page"
+      android:textColor="#000000"
+      android:textSize="25sp"
+      android:textStyle="bold"
+      tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
