@@ -14,7 +14,7 @@
         android:layout_marginTop="20dp"
         android:text="First Name:"
         android:textColor="#110037"
-        android:textSize="25sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         tools:ignore="HardcodedText" />
 
@@ -35,11 +35,11 @@
         android:layout_below="@id/first_name_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:text="Last Name:"
         android:textColor="#110037"
-        android:textSize="25sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         tools:ignore="HardcodedText" />
 
@@ -61,10 +61,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/last_name_text"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:text="Age:"
         android:textColor="#110037"
-        android:textSize="25sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         tools:ignore="HardcodedText" />
 
@@ -85,10 +85,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/age_number"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:text="Gender:"
         android:textColor="#110037"
-        android:textSize="25sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         tools:ignore="HardcodedText" />
 
@@ -108,7 +108,7 @@
             android:layout_height="wrap_content"
             android:text="Male"
             android:textStyle="bold"
-            android:textSize="18sp"
+            android:textSize="20sp"
             tools:ignore="HardcodedText" />
         <RadioButton
             android:id="@+id/female_button"
@@ -116,7 +116,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Female"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
     </RadioGroup>
@@ -126,8 +126,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/gender_group"
-        android:layout_marginStart="200dp"
-        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
         android:text="Next"
         android:textColor="#000000"
         android:textSize="25sp"
