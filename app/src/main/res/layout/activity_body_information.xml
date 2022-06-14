@@ -98,7 +98,7 @@
         android:textStyle="bold"
         tools:ignore="HardcodedText" />
 
-    <com.google.android.material.slider.RangeSlider
+    <com.google.android.material.slider.Slider
         android:id="@+id/heightSlider"
         android:layout_below="@id/height"
         android:layout_width="300dp"
