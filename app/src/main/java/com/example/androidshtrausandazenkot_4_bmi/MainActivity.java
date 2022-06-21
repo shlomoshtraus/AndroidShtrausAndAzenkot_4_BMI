@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Button quit = findViewById(R.id.quit);
 
         quit.setOnClickListener(e->{
-            finish();
+            finishAffinity();
             System.exit(0);
         });
         start.setOnClickListener(view->{
